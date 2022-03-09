@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Contact Us</title>
+    <link href="image/restaurant-logo.png" rel="icon" />
+    <link href="style.css" rel="stylesheet" />
+    <link href="//db.onlinewebfonts.com/c/1fed4454352f201d52b65ca5480afb2d?family=Playlist" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Open+Sans&family=Roboto+Mono&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><img class="logo" src="image/restaurant-logo.png" alt="restaurant logo" /></li>
+        </ul>
+        <ul id="nav-bar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a class="active" href="contact-us.html">Contact Us</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="contact">
+            <p class="contact-us">Thank you for visting our website. Here is our cantact information:</p>
+            <div id="information-box">
+                <table id="whours">
+                    <thead>
+                        <tr class="hours">
+                            <th class="hours-head" colspan="2">Working Hours</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="hours">
+                            <td class="hours">Weekdays (Sunday - Thursday)</td>
+                            <td class="hours">9:00 AM - 10:00 PM</td>
+                        </tr>
+                        <tr class="hours">
+                            <td class="hours">Weekends (Friday - Saturday)</td>
+                            <td class="hours">9:00 AM - 12:00 AM</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div id="location">
+                    <h2>Location</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462562.65097071644!2d54.94755229266862!3d25.07575945039933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai!5e0!3m2!1sen!2sae!4v1646804149223!5m2!1sen!2sae" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <p class="contact-us">We would love your feedback.</p>
+            <div id="feedback">
+                <form action="/" method="post">
+                    <fieldset>
+                        <legend>Contact Form</legend><br />
+                        <label>Name:</label>
+                        <input type="text" name="name" value="" /><br />
+                        <label>E-mail:</label>
+                        <input type="email" name="email" value="" placeholder="example@gmail.com" /><br />
+                        <label>Gender:</label>
+                        <input type="radio" name="gender" />
+                        <label class="gender-form" for="male">Male</label>
+                        <input type="radio" name="gender" />
+                        <label class="gender-form" for="Female">Female</label><br />
+                        <label>Message:</label>
+                        <textarea placeholder="Write your message..."></textarea><br />
+                        <input type="submit" value="Submit">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p id="footer">&copy; All right right revsered.</p>
+    </footer>
+</body>
+</html>
